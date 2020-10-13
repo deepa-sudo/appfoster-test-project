@@ -42,7 +42,6 @@ if ( ! class_exists( 'Appfoster' ) ) {
             register_activation_hook( APPFOSTER_FILE, [ $this, 'install' ] );
             add_filter( 'query_vars', [ $this, 'insertcustom_vars' ] );
             add_filter( 'rewrite_rules_array', [ $this, 'insertcustom_rules'] );
-            // add_action( 'init', [ $this, 'add_appfoster_test_page']  );
         }
 
         public function load_textdomain() {
@@ -90,13 +89,6 @@ if ( ! class_exists( 'Appfoster' ) ) {
             return $newrules + $old_rules;
         }
 
-        public function add_appfoster_test_page() {
-            add_rewrite_rule(
-                'appfoster/test?$',    
-                'index.php?main_page=appfoster&page_test=test',
-                'top'
-            );
-        }
     }
 
 }

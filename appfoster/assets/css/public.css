@@ -1,0 +1,16 @@
+.table.appfoster-table td{
+    vertical-align: middle;
+}
+.appfoster-list-container{
+    padding: 10px;
+    border: 1px solid;
+}
+.appfoster-list-wrapper {
+    margin: 0;
+    border: 1px solid;
+    list-style: none;
+}
+.appfoster-list-wrapper li{
+    border-bottom: 1px solid;
+    padding: 0 10px;
+}

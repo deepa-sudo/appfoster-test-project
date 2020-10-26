@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name: Appfoster Wordpress Developer test Plugin.
- * Plugin URI:  https://webkul.com/
  * Description: This plugin is an assignment for Appfoster Test.
  * Version:     1.0.0
  * Text Domain: appfoster
